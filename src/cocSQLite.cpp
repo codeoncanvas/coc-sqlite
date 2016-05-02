@@ -10,9 +10,7 @@
 // Copyright (c) 2016, Code on Canvas Pty Ltd
 //
 
-#pragma once
-
-#include "SQLiteCpp.h"
+#include "cocSQLite.h"
 
 namespace coc {
 
