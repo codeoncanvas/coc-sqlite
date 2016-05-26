@@ -19,6 +19,7 @@
 	<sourcePattern>libs/SQLiteCpp/sqlite3/*.c</sourcePattern>
 	<sourcePattern>libs/SQLiteCpp/src/*.cpp</sourcePattern>
 	<includePath system="true">libs/SQLiteCpp/include</includePath>
+	<includePath system="true">libs/SQLiteCpp/sqlite3</includePath>
 
 </block>
 </cinder>
