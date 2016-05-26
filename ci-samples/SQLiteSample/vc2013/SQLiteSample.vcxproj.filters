@@ -1,0 +1,115 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{CD8A20EF-D5CC-41CE-BB82-D135073D5BA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite">
+      <UniqueIdentifier>{3CB5C120-B407-48BE-BD49-41ECF6DE0864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\src">
+      <UniqueIdentifier>{EC8AC361-BBA6-4E9C-A871-71817974151D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs">
+      <UniqueIdentifier>{B7D6AA89-C65F-492A-B635-94C1B85DAF32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs\SQLiteCpp">
+      <UniqueIdentifier>{F8F25F47-AF54-43AC-9224-89DC207FEDC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs\SQLiteCpp\include">
+      <UniqueIdentifier>{E6FE342E-FB3F-46C9-8BE3-A130DFDBC452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp">
+      <UniqueIdentifier>{B5E625BF-7FBD-4ABD-8979-C451651C8A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs\SQLiteCpp\sqlite3">
+      <UniqueIdentifier>{867430DF-64C6-4B40-A0E0-BD0D2F6BB8D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\CoC-SQLite\libs\SQLiteCpp\src">
+      <UniqueIdentifier>{F633E776-8748-44B0-8B2C-9635A5CF01B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\SQLiteSampleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SQLiteSampleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\cocSQLite.h">
+      <Filter>Blocks\CoC-SQLite\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\cocSQLite.cpp">
+      <Filter>Blocks\CoC-SQLite\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Assertion.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Backup.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Column.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Database.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Exception.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\SQLiteCpp.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Statement.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\include\SQLiteCpp\Transaction.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\include\SQLiteCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\SQLiteCpp\sqlite3\sqlite3.h">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\sqlite3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\sqlite3\sqlite3.c">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\src\Backup.cpp">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\src\Column.cpp">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\src\Database.cpp">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\src\Statement.cpp">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\SQLiteCpp\src\Transaction.cpp">
+      <Filter>Blocks\CoC-SQLite\libs\SQLiteCpp\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
